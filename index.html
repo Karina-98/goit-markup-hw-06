@@ -443,7 +443,28 @@
                     </use>
                 </svg>
             </button>
+            <p class="modal-hedding">Залиште свої дані, ми вам передзвонимо</p>
+            <form action="">
+                <div class="modal-input-group">
+                <label for="name">Ім'я</label>
+                <input type="text" class="modal-input" name="name" id="name" required>
+                </div>
+                <div class="modal-input-group">
+                <label for="tel">Телефон</label>
+                <input type="tel" class="modal-input" name="tel" id="tel" required>
+                </div>
+                <div class="modal-input-group">
+                <label for="mail">Пошта</label>
+                <input type="email" class="modal-input" name="mail" id="mail" required>
+                </div>
+                <div class="modal-input-group">
+                <label for="coment">Коментар</label>
+                <textarea class="modal-coment" name="coment" id="coment" placeholder="Введіть текст"></textarea>
+                </div>
+                <button type="submit" class=" modal-btn">Відправити</button>
+            </form>
         </div>
+        
     </div>
     <script src="./modal.js">
 
