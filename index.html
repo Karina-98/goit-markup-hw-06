@@ -447,21 +447,48 @@
             <form action="">
                 <div class="modal-input-group">
                 <label for="name">Ім'я</label>
+                <div class="modal-svg">
                 <input type="text" class="modal-input" name="name" id="name" required>
+                
+                <svg width="15" height="12" class="modal-input-items">
+                 <use href="./images/icons.svg.svg#icon-modal-name">
+            
+                 </use>
+                </svg>
+                </div>
                 </div>
                 <div class="modal-input-group">
                 <label for="tel">Телефон</label>
+                <div class="modal-svg">
                 <input type="tel" class="modal-input" name="tel" id="tel" required>
+                <svg width="15" height="12" class="modal-input-items">
+                    <use href="./images/icons.svg.svg#icon-modal-tel">
+                
+                    </use>
+                </svg>
+                </div>
                 </div>
                 <div class="modal-input-group">
                 <label for="mail">Пошта</label>
+                <div class="modal-svg">
                 <input type="email" class="modal-input" name="mail" id="mail" required>
+                <svg width="15" height="12" class="modal-input-items">
+                    <use href="./images/icons.svg.svg#icon-modal-mail">
+                
+                    </use>
+                </svg>
+                </div>
                 </div>
                 <div class="modal-input-group">
                 <label for="coment">Коментар</label>
                 <textarea class="modal-coment" name="coment" id="coment" placeholder="Введіть текст"></textarea>
                 </div>
-                <button type="submit" class=" modal-btn">Відправити</button>
+                <div class="modal-input-group">
+                    <input type="checkbox" name="politic" id="politic">
+                    <label for="politic" class="modal-politic">Погоджуюся з розсилкою та приймаю <a href="" class="modal-politic-contract">Умови договору</a></label>
+                    
+                </div>
+                <button type="submit" class="modal-btn">Відправити</button>
             </form>
         </div>
         
