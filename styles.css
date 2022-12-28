@@ -963,7 +963,6 @@ margin-bottom: 10px;
 }
 
 .modal-politic{
-    
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
@@ -992,6 +991,7 @@ margin-bottom: 10px;
 label.modal-politic{
     display: flex;
     margin-top: 20px;
+    font-size: 14px;
 }
 
 .modal-politic-check:checked + label::before{
