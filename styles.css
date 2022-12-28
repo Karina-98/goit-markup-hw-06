@@ -617,12 +617,83 @@ margin-right: 30px;
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #FFFFFF;
  }
 
+ .footer-soc-mail{
+    display: block;
+    margin-left: 93px;
+    width: 570px;
+    height: 86px;
+    position: relative;
+ }
+
+ .footer-soc-mail-input{
+    display: flex;
+    margin-top: 20px;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding-left: 16px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    
+ }
+
+ .footer-soc-mail-input:focus,
+ .footer-soc-mail-input:hover{
+    outline: transparent;
+ }
+
+ .footer-soc-mail-input::placeholder{
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+
+ }
+
+ .footer-soc-mail label{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+ }
+
+ .footer-soc-mail-button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-left: 12px;
+    border: none;
+
+}
+
+
+
+
+ .footer-soc-mail-svg{
+    fill: #FFFFFF;
+    margin-left: 10px;
+   
+ }
 /* ----------PORTFOLIO-hero---------- */
 
 
@@ -823,7 +894,7 @@ margin-right: 30px;
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
-        margin-bottom: 30px;
+        margin-bottom: 12px;
 }
 .modal-input{
     display: flex;
@@ -893,7 +964,7 @@ margin-bottom: 10px;
 
 .modal-politic{
     
-    font-weight: 400;
+        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -933,4 +1004,9 @@ label.modal-politic{
 
 .modal-input-group + button {
     margin-top: 30px;
+}
+
+.btn-modal{
+    border: none;
+
 }
