@@ -667,7 +667,7 @@ margin-right: 30px;
  }
 
  .footer-soc-mail-input::placeholder{
-    text-transform: uppercase;
+    
     color: rgba(255, 255, 255, 0.6);
 
  }
@@ -751,7 +751,7 @@ margin-right: 30px;
 /* -----------PORTFOLIO-CATEGORY----------- */
 
 
-.category-list{
+.category-list {
     width: 370px;
     height: 404px;
     margin-left: 30px;
@@ -760,24 +760,23 @@ margin-right: 30px;
 }
 
 .category-list:hover,
-.category-list:focus{
+.category-list:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.about-category-hero{
+.about-category-hero {
+    position: relative;
     width: 100%;
     overflow: hidden;
-    transition: transform 250ms var(--time-function);
-    
+
 }
-.text-about-category-hero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.text-about-category-hero {
+    position: absolute;
     background: rgba(33, 150, 243, 0.9);
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.55;
+    line-height: 28px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     width: 100%;
@@ -787,31 +786,32 @@ margin-right: 30px;
     padding: 63px 24px;
     transform: translateY(100%);
     transition: transform 250ms var(--time-function);
-    
+
 }
+
 .about-category-hero:hover .text-about-category-hero,
-.about-category-hero:focus .text-about-category-hero{
-    
+.about-category-hero:focus .text-about-category-hero {
+
     transform: translateY(0);
-    
-}
-
-.category-name{
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
 
 }
 
-.category-work{
-        font-size: 16px;
-        line-height: 1.88;
-        letter-spacing: 0.03em;
-        color: #757575;
+.category-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
 }
 
-.category-hero{
+.category-work {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.category-hero {
 
     display: flex;
     flex-wrap: wrap;
@@ -819,12 +819,11 @@ margin-right: 30px;
     margin-bottom: -30px;
 }
 
-.category-list-hero{
+.category-list-hero {
     padding: 20px 24px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
-
 
 /* -----------BACKDROP----------- */
 
